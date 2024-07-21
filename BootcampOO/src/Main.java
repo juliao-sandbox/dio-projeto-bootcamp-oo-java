@@ -32,28 +32,32 @@ public class Main {
         Dev devFulano = new Dev();
         devFulano.setNome("Fulano");
         devFulano.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos Fulano:" + devFulano.getConteudosInscritos());
+        System.out.println("Conteúdos inscritos de Fulano:");
+        System.out.println(devFulano.getConteudosInscritos());
         devFulano.progredir();
         devFulano.progredir();
-        System.out.println("-");
-        System.out.println("Conteúdos Inscritos Fulano:" + devFulano.getConteudosInscritos());
-        System.out.println("Conteúdos Concluídos Fulano:" + devFulano.getConteudosConcluidos());
-        System.out.println("XP:" + devFulano.calcularTotalXp());
+        System.out.println();
+        System.out.println("Conteúdos inscritos de Fulano:");
+        System.out.println(devFulano.getConteudosInscritos());
+        System.out.println("Conteúdos concluídos de Fulano:");
+        System.out.println(devFulano.getConteudosConcluidos());
+        System.out.println(" - XP: " + devFulano.calcularTotalXp());
 
-        System.out.println("-------");
+        System.out.println("\n-------\n");
 
         Dev devBeltrano = new Dev();
         devBeltrano.setNome("Beltrano");
         devBeltrano.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos Beltrano:" + devBeltrano.getConteudosInscritos());
+        System.out.println("Conteúdos inscritos de Beltrano:");
+        System.out.println(devBeltrano.getConteudosInscritos());
         devBeltrano.progredir();
         devBeltrano.progredir();
         devBeltrano.progredir();
         System.out.println("-");
-        System.out.println("Conteúdos Inscritos Beltrano:" + devBeltrano.getConteudosInscritos());
-        System.out.println("Conteúdos Concluidos Beltrano:" + devBeltrano.getConteudosConcluidos());
-        System.out.println("XP:" + devBeltrano.calcularTotalXp());
-
+        System.out.println("Conteúdos Inscritos Beltrano:");
+        System.out.println(devBeltrano.getConteudosInscritos());
+        System.out.println("Conteúdos Concluidos Beltrano:");
+        System.out.println(devBeltrano.getConteudosConcluidos());
+        System.out.println(" - XP: " + devBeltrano.calcularTotalXp());
     }
-
 }
