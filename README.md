@@ -1,6 +1,6 @@
 # DIO - Projeto: Abstraindo um Bootcamp Usando Orientação a Objetos em Java
 
-Programa simples para demonstração dos conceitos de programação orientada a objetos em Java, utilizando abstração, encapsulamento, herança e polimorfismo. Domínio utilizado: Curso no formato de Bootcamp.
+Programa simples para demonstração dos conceitos de programação orientada a objetos em Java, utilizando abstração, encapsulamento, herança e polimorfismo. Domínio utilizado: Curso no formato de Bootcamp. Também foi utilizada a biblioteca Lombok para auxiliar na geração automática dos métodos getters, setters e toString.
 
 Este projeto foi descrito em [Desafio: Aprenda na Prática Programação Orientada a Objetos](https://github.com/cami-la/desafio-poo-dio).
 
